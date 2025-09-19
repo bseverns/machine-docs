@@ -1,8 +1,9 @@
 # Quick Start — MakerBot Sketch+
 
-**Goal:** First successful job in ~15 minutes.
+**Goal:** Ship a trustworthy print in ~15 minutes while learning the lab-specific quirks.
 
-1. Read `safety.md` and know the E‑Stop.
-2. Use the provided **Sample Job** in `/profiles/sample`.
-3. Follow `sop.md` → Preflight, Operation, Postflight.
-4. Record your run in `/logs/maintenance-log.csv` if you changed anything.
+1. Review the [safety brief](./safety.md) and confirm ventilation is on point for the material.
+2. Slice the **sample job** from [`profiles/sample`](./profiles/sample/) with the correct nozzle + slicer profile.
+3. March through the [SOP](./sop.md): Preflight → Operation → Postflight without skipping checkboxes.
+4. Log any offsets, swaps, or tweaks in the [maintenance log](./logs/maintenance-log.csv) before you walk away.
+5. If anything went sideways, drop a note in the [incident log](./logs/incident-log.csv) so the crew can debrief.
