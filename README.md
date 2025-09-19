@@ -2,44 +2,48 @@
 
 _A practical, evolving field manual for our digital fabrication lab. Built to help people make more, better, and safer._
 
-- **Scope:** 3D printers (MakerBot Sketch, Sketch+; MakerBot Method X; LulzBot Mini 3) and **CNC** (Genmitsu Cubiko).
-- **Audience:** students, staff, and community members; new operators through advanced maintainers.
-- **Status:** initial scaffold · 2025-09-19. This repo is intentionally modular and versioned. Treat it like a handbook and a lab log.
+- **Scope:** 3D printers (MakerBot Sketch, Sketch+, Method X; LulzBot Mini 3) and **CNC** (Genmitsu Cubiko).
+- **Audience:** students, staff, and community members — from first-timers to battle-tested maintainers.
+- **Status:** initial scaffold · 2025-09-19. Treat it like a handbook and a lab log that never sleeps.
 
-## Repo Map
+## Why this repo exists
 
-```
-fab-machine-docs/
-  machines/
-    makerbot-sketch/
-    makerbot-sketch-plus/
-    makerbot-method-x/
-    lulzbot-mini-3/
-    genmitsu-cubiko/
-  templates/
-  docs/
-  .github/
-```
+We keep tripping over the same questions: _Which profile do I use?_ _Where do I log the weird noise?_ Rather than repeat tribal knowledge, this repo captures the intent behind every job. Every doc should teach you how to succeed today **and** how to leave breadcrumbs for the next operator.
 
-## How to Use
+> _The lab is a chorus; every operator should leave it singing a little more in tune._
 
-1. Start at your **machine folder** → read the `README.md` → follow the **SOP** and **Safety**.
-2. Complete the **Operator Checklist** and **Quiz** to earn your badge.
-3. When you learn something new, **submit a PR**—this is a living document.
+## Quick orientation
 
-## Contribution Rhythm
+- **Machines** — Start with your rig’s folder and read the local `README.md`:
+  - [MakerBot Sketch](machines/makerbot-sketch/)
+  - [MakerBot Sketch+](machines/makerbot-sketch-plus/)
+  - [MakerBot Method X](machines/makerbot-method-x/)
+  - [LulzBot Mini 3](machines/lulzbot-mini-3/)
+  - [Genmitsu Cubiko (CNC)](machines/genmitsu-cubiko/)
+- **Shared docs** — Lab-wide standards, pipelines, and training live in [`/docs`](docs/). Highlights:
+  - [Lab Safety](docs/lab-safety.md)
+  - [3D Printing Pipeline](docs/printing-pipeline.md) & [CNC Pipeline](docs/cnc-pipeline.md)
+  - [Onboarding](docs/onboarding.md) and [Training Pathways](docs/training-pathways.md)
+- **Templates** — Drop-in scaffolds for SOPs, job sheets, and forms live in [`/templates`](templates/).
+- **Personal rigs** — Ben’s side quests and retrofit notes are in [`/personal-machines`](personal-machines/).
 
-- Small fixes: open a PR with a clear diff and photos if relevant.
-- New procedures: start from `/templates/SOP-template.md`.
-- Incidents: record in the machine’s `/logs/incident-log.csv` within 24 hours and file an issue.
+## How to use these docs
 
-> _The lab is a chorus: each user leaves it singing more in tune than they found it._
+1. Start in your **machine folder** → read the local [`README`](machines/) → follow its linked **Quick Start**, **Safety**, and **SOP**.
+2. Grab the relevant **Operator Checklist**, templates, or slicer profiles directly from the folder paths linked in each doc.
+3. After every run, update the maintenance or incident logs so the next human sees the full story.
+4. Found a better trick? **Submit a PR** with context, photos, or data. This repo only stays alive if we feed it.
 
----
+## Contribution rhythm
+
+- **Small fixes** — Quick typo, new photo, or parameter tweak? Open a PR with a tight diff and before/after notes.
+- **New procedures** — Fork the [`SOP template`](templates/SOP-template.md) or other scaffolds and document the “why” alongside the “how”.
+- **Incidents** — Log the event in the machine’s [`incident log`](machines/) within 24 hours and open an issue so we can swarm it.
+
 ## Firmware policy
 
-All machines run **stock firmware** unless noted in their machine page. Personal machines include explicit firmware notes and links.
+All machines run **stock firmware** unless their machine page calls out a controlled deviation. Personal machines include explicit firmware notes and links; don’t freestyle without documenting the rollback path.
 
-## Personal machines
+---
 
-See `/personal-machines/` for Ben's machines and retrofit plans.
+Need something that isn’t here yet? Open an issue, drop your context, and let’s hack the gap together.
