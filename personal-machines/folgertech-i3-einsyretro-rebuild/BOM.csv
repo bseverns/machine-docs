@@ -1,0 +1,16 @@
+category,item,qty,spec/part,notes
+Controller,UltiMachine EinsyRetro 1.0a,1,EinsyRetro,On-board TMC2130 drivers; sensorless homing optional
+Wiring,Ferrules assorted,1,AWG 18–24 kit,"For PSU, heaters, endstops; safer terminations"
+Wiring,Crimp housings + pins (JST-XH/Dupont),1,Assorted kit,Match board headers; endstop/stepper
+Safety,Inline fuse holder + fuses,1,"5x20mm, 10A/15A",Size to PSU and heater loads
+Power,IEC C14 inlet w/ switch,1,Panel-mount,If not present; add strain relief
+Cooling,Controller fan,1,40mm 24V (or board spec),Aim at driver area; quiet model preferred
+Motion,GT2 belts,2,6mm,Replace if worn
+Motion,Idlers + pulleys,1 set,GT2 20T + 608/625 idlers,As needed
+Motion,Stepper dampers (optional),2,NEMA17 damper,Reduce resonance
+Heater,SSR for bed (optional),1,DC–AC or DC–DC per bed,If bed current exceeds board output
+Tools,Crimp tool,1,SN-28B or equivalent,For JST/Dupont pins
+Tools,Cable sleeve & heatshrink,1,Various,Cable discipline
+EMI,Ferrite clips (optional),4,Clip-on,Reduce endstop noise
+Printed,Board mount + cable guide,1,STL link,Mount EinsyRetro cleanly in frame
+Labeling,Heat-resistant labels,1,Polyimide/Kapton,For wiring identification

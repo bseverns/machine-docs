@@ -1,0 +1,17 @@
+# Material Profile (YAML)
+material_name: "PLA"
+vendor: "Generic"
+color: "Natural"
+use_cases: ["general prototyping"]
+machines: ["makerbot-sketch","makerbot-sketch-plus","lulzbot-mini-3"]
+slicer: "Cura / MakerBot CloudPrint"
+nozzle_temp_c: 205
+bed_temp_c: 60
+chamber_temp_c: null
+speed_mm_s: 50
+retraction_mm: 1.0
+retraction_speed_mm_s: 35
+cooling_fan_percent: 100
+adhesion: "brim 5mm"
+notes: "Tune Z-offset per machine; verify filament diameter 1.75/2.85 as appropriate."
+version: 1

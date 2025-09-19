@@ -1,0 +1,13 @@
+category,item,qty,spec/part,notes
+Controller,BTT SKR 1.4 Turbo (or Octopus),1,32‑bit + TMC drivers,Choose based on IO needs
+Drivers,TMC2209 (x5),1 set,"X,Y,Z,E + spare","UART wiring, cool well"
+Temp sensing (A),MAX31855/31856 K‑type amplifier,2‑3,SPI modules,Hotend/bed/chamber if keeping K‑type
+Temp sensing (B),PT100/PT1000 kits or NTC100k,2‑3,Hotend/bed/chamber,If replacing sensors
+Power,SSR (bed/chamber),1‑2,Rated for load & voltage,Zero‑cross AC or DC‑DC per heater
+Power,IEC inlet + fused switch,1,Panel mount,If not present
+Wiring,Ferrules + crimp housings,1,AWG 18–24 kit,Safer terminations
+Cooling,Board fan 40mm,1,24V quiet,Aim at drivers
+Extruder (A),Bondtech BMG (or equivalent),1,Stepper E,Simpler path
+Extruder (B),GeckoDrive G320X (servo),1,step/dir servo driver,Advanced: keep DC servo
+Sensors,Filament runout sensor,1,Normally‑closed preferred,Mount in new spool path
+Misc,"Cable sleeve, heatshrink, labels",1,—,Cable discipline

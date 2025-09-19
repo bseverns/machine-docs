@@ -1,0 +1,4 @@
+tool_no,diameter_mm,flutes,material,operation,notes
+1,3.175,2,carbide,wood/plastic general,1/8" upcut
+2,3.175,2,carbide,wood/plastic finishing,1/8" downcut
+3,3.0,1,carbide,aluminum roughing,stub length
