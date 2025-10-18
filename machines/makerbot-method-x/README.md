@@ -18,3 +18,9 @@ _Aim: reliable, repeatable results with clear guardrails._
 - Treat ABS/ASA jobs with proper ventilation and schedule them when the lab can handle fumes.
 - Document soluble support usage and disposal steps in the [materials](./materials.md) file.
 - Keep [calibration](./calibration.md) data current; the enclosed environment can drift with chamber heat.
+
+## Source-of-truth links
+- [MakerBot Method X product page](https://www.makerbot.com/3d-printers/method-x/) — official spec sheet and marketing claims.
+- [MakerBot Method X user guide (PDF)](https://downloads.makerbot.com/manuals/MakerBot_MethodX_UserGuide.pdf) — first-party setup, calibration, and maintenance.
+- [MakerBot support: Method X topic](https://support.makerbot.com/s/topic/0TO6S000000PC4EWAW/method-x) — curated troubleshooting and materials articles.
+
