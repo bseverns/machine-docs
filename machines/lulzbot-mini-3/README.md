@@ -7,6 +7,19 @@ _Aim: reliable, repeatable results with clear guardrails._
 - [Safety](./safety.md) — hazards, hot surfaces, and emergency stops.
 - [SOP](./sop.md) — the definitive runbook from preflight to shutdown.
 
+## Reference set
+- [LulzBot Mini 3 user guide](https://download.lulzbot.com/Mini_3/documentation/LulzBot_Mini_3_User_Guide.pdf) — official setup, maintenance, and wiring diagrams.
+- [Marlin 2.x firmware builds](https://download.lulzbot.com/Software/Marlin2/) — grab the Mini 3 hex + release notes before scheduling a flash.
+- [Cura LulzBot Edition docs](https://www.lulzbot.com/learn/tutorials/cura-lulzbot-edition-user-manual) — slicer workflow we certify for this printer.
+- [Lab cheat: Mini 3 calibration tracker](./calibration.md) — record Z offsets per bed plate and keep probe offsets honest.
+
+## Machine facts at a glance
+- **Build volume:** 205 × 195 × 196 mm (8.1 × 7.7 × 7.7 in) — nozzle wipe happens front-left; leave clearance.
+- **Firmware baseline:** Marlin 2.1.4.3 (LulzBot branch) loaded via CuraLE; document any config edits in the maintenance log.
+- **Toolhead:** HE 0.5 (0.5 mm brass nozzle, 1.75 mm filament) with direct-drive dual-geared feeder and automatic nozzle wiping pad.
+- **Approved materials:** LulzBot-profiled PLA, Tough PLA, PETG, ABS, ASA, nGen, TPU 95A, and Nylon co-polymers; anything exotic needs instructor sign-off.
+- **Unique hardware:** Modular PEI-on-glass bed with auto-leveling corner washers, always-on HEPA filter housing, and reversible build surface plates.
+
 ## Keep the trail warm
 - [Maintenance log](./logs/maintenance-log.csv) — note nozzle wipes, offsets, or bed swaps.
 - [Incident log](./logs/incident-log.csv) — record jams or anomalies within 24 hours.
