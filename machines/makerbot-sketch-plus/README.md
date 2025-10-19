@@ -17,3 +17,9 @@ _Aim: reliable, repeatable results with clear guardrails._
 ## Field notes
 - Shares workflow DNA with the Sketch, but keep profiles separate to respect build volume differences.
 - Document nozzle swaps or alternate build surfaces directly in the [materials](./materials.md) and [calibration](./calibration.md) notes.
+
+## Source-of-truth links
+- [MakerBot Sketch Series overview](https://www.makerbot.com/3d-printers/sketch-series/) — official comparison of Sketch and Sketch+.
+- [MakerBot Sketch+ tech specs (PDF)](https://downloads.makerbot.com/manuals/MakerBot_SKETCHPlus_TechSpecs.pdf) — dimensions, build volume, and power requirements.
+- [MakerBot support: Sketch+ knowledge base](https://support.makerbot.com/s/article/1667416063609) — maintenance and troubleshooting notes direct from MakerBot.
+

@@ -18,3 +18,9 @@ _Aim: reliable, repeatable results with clear guardrails._
 - Workflow is GRBL-based; keep the tool database synced with [`templates/cnc-tool-database.csv`](../../templates/cnc-tool-database.csv).
 - Always dry-run above stock to verify safe Z and work offsets before cutting chips.
 - Use the [`cnc-job-sheet`](../../templates/cnc-job-sheet.md) for every job and store completed sheets per project policy.
+
+## Source-of-truth links
+- [SainSmart Genmitsu Cubiko product page](https://www.sainsmart.com/products/genmitsu-cubiko) — official specifications and accessory list.
+- [SainSmart Docs: Cubiko introduction](https://docs.sainsmart.com/article/intro-genmitsu-cubiko) — assembly, wiring, and firmware guidance.
+- [Genmitsu support downloads](https://www.sainsmart.com/pages/genmitsu-cubiko-download) — firmware, drivers, and CAM profiles maintained by SainSmart.
+

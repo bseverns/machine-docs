@@ -18,3 +18,9 @@ _Aim: reliable, repeatable results with clear guardrails._
 - Runs MakerBot cloud or desktop slicers depending on the lab station; confirm before you slice.
 - Double-check filament diameter and units (mm) in any imported profile before pressing go.
 - Keep [materials](./materials.md) and [calibration](./calibration.md) docs updated as the machine drifts.
+
+## Source-of-truth links
+- [MakerBot SKETCH product page](https://www.makerbot.com/3d-printers/sketch/) — official specs and marketing copy.
+- [MakerBot SKETCH user guide (PDF)](https://downloads.makerbot.com/manuals/MakerBot_SKETCH_User_Guide.pdf) — factory setup, maintenance, and calibration.
+- [MakerBot support: SKETCH resource hub](https://support.makerbot.com/s/article/1667416063529) — troubleshooting articles curated by MakerBot.
+

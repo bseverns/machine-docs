@@ -18,3 +18,9 @@ _Aim: reliable, repeatable results with clear guardrails._
 - Use Cura (LulzBot Edition or vanilla Cura) profiles from the [profiles](./profiles/) folder; keep lab-specific adjustments documented.
 - Track Z-offset per build surface in the [calibration](./calibration.md) doc.
 - Update the [materials](./materials.md) list when adding filaments or changing temperature ranges.
+
+## Source-of-truth links
+- [LulzBot Mini 3 product page](https://www.lulzbot.com/products/lulzbot-mini-3) — official specs, bundle contents, and firmware downloads.
+- [OHAI: LulzBot Mini 3 guides](https://ohai.lulzbot.com/project/lulzbot-mini-3/) — step-by-step maintenance and calibration direct from LulzBot.
+- [LulzBot support knowledge base](https://www.lulzbot.com/learn/tutorials/lulzbot-mini-3) — application notes and material presets maintained by LulzBot.
+
