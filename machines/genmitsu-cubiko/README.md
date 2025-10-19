@@ -7,6 +7,19 @@ _Aim: reliable, repeatable results with clear guardrails._
 - [Safety](./safety.md) — chip containment, PPE, and emergency stops.
 - [SOP](./sop.md) — the authoritative preflight → run → cleanup sequence.
 
+## Reference set
+- [Genmitsu Cubiko user manual](https://www.sainsmart.com/pages/download/genmitsu-cubiko-user-guide) — full wiring, workholding, and maintenance callouts straight from SainSmart.
+- [GRBL 1.1h firmware & release notes](https://github.com/gnea/grbl/releases) — controller source; confirm config diffs before flashing.
+- [Fusion 360 Manufacturing workspace docs](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-D83A14C5-07DB-4E7D-9865-3CE0A1C46589) — reference for adaptive/trochoidal strategies we standardize on.
+- [Lab cheat: CNC job sheet template](../../templates/cnc-job-sheet.md) — capture feeds, speeds, and setup photos every run.
+
+## Machine facts at a glance
+- **Work envelope:** 304 × 304 × 72 mm (per SainSmart spec) — respect travel; verify Z on tall stock before committing.
+- **Controller / firmware:** GRBL 1.1h on the stock motion board; stream via Candle/UGS with $N macros staged.
+- **Spindle & interface:** 300 W brushless spindle with ER11 collet (1/8" default, 1/4" optional) — tighten with matched wrenches, no pliers.
+- **Approved stock:** Hardwood, cast acrylic, machinable wax, FR-1 PCBs; 6061 aluminum allowed with ≤0.5 mm stepover and flood-free chip clearing.
+- **Unique hardware:** Fully enclosed acrylic shell, magnetic chip tray, integrated LED strips, and a quick-swap spoilboard pinned to a T-slot base.
+
 ## Keep the trail warm
 - [Maintenance log](./logs/maintenance-log.csv) — document tram checks, fixture changes, or firmware notes.
 - [Incident log](./logs/incident-log.csv) — capture tool breaks or near-misses within 24 hours.

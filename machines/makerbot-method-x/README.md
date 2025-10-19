@@ -7,6 +7,19 @@ _Aim: reliable, repeatable results with clear guardrails._
 - [Safety](./safety.md) — ventilation, PPE, and emergency stops for this enclosed system.
 - [SOP](./sop.md) — canonical checklist from preflight through shutdown.
 
+## Reference set
+- [MakerBot Method X user guide](https://support.makerbot.com/s/article/1267528400550) — wiring, maintenance intervals, and material handling straight from MakerBot.
+- [MakerBot OS firmware releases](https://support.makerbot.com/s/article/1267528410370-Method-Software-Release-Notes) — track Method OS 2.9.x updates before you schedule a flash.
+- [MakerBot Print & CloudPrint docs](https://support.makerbot.com/s/article/1667416350829-MakerBot-Print-Overview) — slicer workflow we standardize on for queue control.
+- [Lab cheat: Method X material matrix](./materials.md) — local approvals, purge strips, and chamber temp targets.
+
+## Machine facts at a glance
+- **Build volume:** 190 × 190 × 196 mm (dual extrusion); keep rafts inside the 1 mm chamber safety band.
+- **Firmware baseline:** MakerBot OS 2.9.2 on both bays; log staged updates before flashing.
+- **Toolheads:** Model 1XA and Support 2XA extruders (0.4 mm hardened steel + soluble support) with LABS Experimental head when cleared.
+- **Approved materials:** MakerBot ABS, ABS-R, ASA, PC-ABS, Nylon Carbon Fiber (LABS), and SR-30 soluble support; purge after carbon-filled runs.
+- **Unique hardware:** Circulating 110 °C heated chamber, dual sealing spool bays with desiccant, HEPA + carbon filtration, and a flex steel build plate keyed for alignment.
+
 ## Keep the trail warm
 - [Maintenance log](./logs/maintenance-log.csv) — capture chamber temp tweaks, offsets, and consumables.
 - [Incident log](./logs/incident-log.csv) — log jams, purge issues, or enclosure alarms within 24 hours.
