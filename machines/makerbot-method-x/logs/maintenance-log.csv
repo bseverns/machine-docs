@@ -1,1 +1,4 @@
 date,operator,task,notes,parts_used,next_due
+2024-06-05,HKeller,Door latch alignment and gasket clean,Adjusted latch cam and wiped gasket to ensure seal,None,2024-09-05
+2024-05-27,DLane,SR-30 filament bake and extruder clean,Baked support spool at 60°C for 4h and cleaned drive gears,None,2024-06-27
+2024-05-15,EMarquez,Material bay contact cleaning and firmware diag,Used contact cleaner and ran diagnostics to confirm sensors,Contact cleaner wipes,2024-07-15

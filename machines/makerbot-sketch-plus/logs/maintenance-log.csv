@@ -1,1 +1,4 @@
 date,operator,task,notes,parts_used,next_due
+2024-05-31,RGarcia,Bed probe clean and Z-offset re-teach,Removed magnetic dust, reran calibration, and saved offsets,Alcohol wipes,2024-06-30
+2024-05-16,ALiu,Filament path lubrication and drybox alignment,Graphite lubed feeder idler and realigned drybox feed tube,None,2024-07-16
+2024-05-01,SBasu,Enclosure gasket inspection and heater test,Verified seals and ran chamber heat soak to 45°C,None,2024-08-01

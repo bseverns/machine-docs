@@ -1,1 +1,4 @@
 date,operator,incident,injury(Y/N),machine_state,notes
+2024-06-04,HKeller,Chamber stalled at 70°C and print paused with temp fault,N,paused,Door was not latched fully; sensors logged error 508.
+2024-05-25,DLane,SR-30 support extruder clicking and not feeding,N,running,Support spool moisture above 30% RH caused softening; jam cleared after drying.
+2024-05-12,EMarquez,Material bay reported "Spool Not Detected" for ABS,N,idle,Reader pins oxidized; reseated cartridge and cleaned contacts.

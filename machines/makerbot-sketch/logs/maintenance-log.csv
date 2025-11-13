@@ -1,1 +1,4 @@
 date,operator,task,notes,parts_used,next_due
+2024-06-03,JPerez,Hotend purge and nozzle swap,Purged with cleaning filament and replaced 0.4 mm brass nozzle after clog,MakerBot 0.4 mm brass nozzle,2024-07-01
+2024-05-20,CTang,Y-axis belt tension and build plate refresh,Re-tensioned Y belt to 3.5 kg and replaced build plate adhesive sheet,BuildTak sheet,2024-06-20
+2024-05-10,MBanks,Firmware update to v1.15.1,Applied via USB and documented changelog in drive,USB stick,2024-08-10

@@ -1,1 +1,4 @@
 date,operator,incident,injury(Y/N),machine_state,notes
+2024-06-01,MPatel,Wipe pad overflow left residue on nozzle and first layer smeared,N,running,Wiper pad saturated; purge routine not updated after new filament.
+2024-05-19,KTaylor,Filament runout alarm triggered with full spool,N,paused,Runout sensor window dusty; triggered during 3h print.
+2024-05-09,JSingh,Z homing failed with "probing timeout" and gantry racked,N,stopped,Left Z lead screw dry and coupler loose causing skew.
