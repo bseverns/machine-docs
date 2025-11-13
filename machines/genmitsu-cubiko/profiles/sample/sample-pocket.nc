@@ -1,0 +1,27 @@
+(Genmitsu CubiKo sample pocket)
+(Tool: 1/8" single-flute endmill)
+G21 (mm)
+G90
+G17
+G94
+M3 S18000
+F800
+G0 X5 Y5 Z5
+G0 Z2
+G1 Z-0.5 F150
+G1 X75 Y5 F800
+G1 Y35
+G1 X5
+G1 Y5
+G0 Z5
+(Helix pocket center)
+G0 X40 Y20
+G1 Z0 F300
+G2 X40 Y20 I0 J0 Z-3 F300
+G2 X40 Y20 I0 J0 Z-6 F300
+G1 X55 Y20 F700
+G2 X40 Y20 I-7.5 J0 F700
+G1 X40 Y20 Z5 F300
+M5
+G0 X0 Y0
+M30

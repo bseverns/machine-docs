@@ -1,0 +1,19 @@
+{
+  "profile_name": "Method X Lab ABS-R Calibration",
+  "application_version": "MakerBot Print 4.12.1",
+  "material": "ABS-R",
+  "support_material": "RapidRinse",
+  "nozzle": "0.4 mm Smart Extruder X",
+  "layer_height_mm": 0.2,
+  "infill_pattern": "grid",
+  "infill_density_percent": 18,
+  "chamber_temperature_c": 60,
+  "build_plate_temperature_c": 95,
+  "print_speed_mm_per_s": 55,
+  "travel_speed_mm_per_s": 150,
+  "cooling_fan_percent": 35,
+  "raft_enabled": true,
+  "support_enabled": true,
+  "support_interface_layers": 3,
+  "notes": "Baseline ABS-R cube to confirm dual extrusion alignment and RapidRinse behavior."
+}
