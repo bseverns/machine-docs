@@ -24,7 +24,7 @@ We keep tripping over the same questions: _Which profile do I use?_ _Where do I 
   - [Lab Safety](docs/lab-safety.md)
   - [3D Printing Pipeline](docs/printing-pipeline.md) & [CNC Pipeline](docs/cnc-pipeline.md)
   - [Onboarding](docs/onboarding.md) and [Training Pathways](docs/training-pathways.md)
-- **Templates** — Drop-in scaffolds for SOPs, job sheets, and forms live in [`/templates`](templates/).
+- **Templates** — Drop-in scaffolds for SOPs, job sheets, and forms live in [`/templates`](templates/). Start with the [Template Field Guide](templates/README.md) to pick the right one and see what to customize.
 - **Personal rigs** — Ben’s side quests and retrofit notes are in [`/personal-machines`](personal-machines/).
 
 ## How to use these docs
