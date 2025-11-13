@@ -1,0 +1,18 @@
+{
+  "profile_name": "Sketch Classroom PLA Calibration",
+  "application_version": "MakerBot Print 4.12.1",
+  "material": "Tough PLA",
+  "nozzle": "0.4 mm Smart Extruder",
+  "layer_height_mm": 0.2,
+  "infill_pattern": "triangles",
+  "infill_density_percent": 15,
+  "build_plate_temperature_c": 60,
+  "extruder_temperature_c": 205,
+  "print_speed_mm_per_s": 50,
+  "travel_speed_mm_per_s": 150,
+  "cooling_fan_percent": 90,
+  "raft_enabled": false,
+  "support_enabled": false,
+  "brim_enabled": true,
+  "notes": "Use this cube to sanity-check X/Y squareness after every nozzle swap."
+}

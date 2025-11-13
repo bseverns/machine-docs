@@ -1,0 +1,19 @@
+{
+  "profile_name": "Sketch+ PLA+ Calibration",
+  "application_version": "MakerBot Print 4.12.1",
+  "material": "PLA+",
+  "nozzle": "0.4 mm Dual Extruder",
+  "layer_height_mm": 0.18,
+  "infill_pattern": "gyroid",
+  "infill_density_percent": 22,
+  "build_plate_temperature_c": 60,
+  "extruder_temperature_c": 210,
+  "print_speed_mm_per_s": 60,
+  "travel_speed_mm_per_s": 160,
+  "cooling_fan_percent": 85,
+  "raft_enabled": false,
+  "support_enabled": true,
+  "support_interface_layers": 2,
+  "brim_enabled": true,
+  "notes": "Dual extruder check cube. If the seam looks funky, re-run the offset calibration."
+}
