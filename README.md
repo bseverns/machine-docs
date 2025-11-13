@@ -31,7 +31,7 @@ We keep tripping over the same questions: _Which profile do I use?_ _Where do I 
 
 1. Start in your **machine folder** → read the local [`README`](machines/) → follow its linked **Quick Start**, **Safety**, and **SOP**.
 2. Grab the relevant **Operator Checklist**, templates, or slicer profiles directly from the folder paths linked in each doc.
-3. After every run, update the maintenance or incident logs so the next human sees the full story.
+3. After every run, update the maintenance or incident logs so the next human sees the full story, then hit the [Machine Logging Playbook](docs/logging-playbook.md) to stay synced on review cadence.
 4. Found a better trick? **Submit a PR** with context, photos, or data. This repo only stays alive if we feed it.
 
 ## Contribution rhythm
