@@ -1,1 +1,4 @@
 date,operator,incident,injury(Y/N),machine_state,notes
+2024-06-02,JPerez,Extrusion stopped mid-print at 18% due to clogged PLA nozzle,N,paused,Spool left out overnight and moisture popped during purge; resumed after manual purge.
+2024-05-18,CTang,Layer shift on Y-axis after plate slipped halfway through build,N,stopped,Build surface glue had worn off; print released and dragged.
+2024-05-07,MBanks,Touchscreen locked during preheat and ignored inputs,N,idle,Recovered after power-cycle but queued job lost; logs captured on USB.

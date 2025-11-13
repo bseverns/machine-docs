@@ -1,1 +1,4 @@
 date,operator,incident,injury(Y/N),machine_state,notes
+2024-06-06,TRamos,Spindle overload fault during aluminum roughing,N,stopped,Adaptive toolpath left feed at 1200 mm/min with dull 1/8" end mill.
+2024-05-22,ELi,Limit switch tripped randomly mid-job,N,paused,Chips packed behind X-min switch; vacuumed to clear.
+2024-05-11,ABlake,Stock slipped in vise causing 0.6mm miscut,N,stopped,Vise jaw faced but not re-trammed; parallels oily.

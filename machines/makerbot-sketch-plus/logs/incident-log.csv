@@ -1,1 +1,4 @@
 date,operator,incident,injury(Y/N),machine_state,notes
+2024-05-30,RGarcia,Auto-level routine aborted with "bed probe timeout",N,paused,Magnetic debris stuck to front inductive puck; wiping cleared it.
+2024-05-14,ALiu,Material under-extruded causing sparse infill on PLA,N,running,Filament spool dragging on drybox feed port causing stepper skips.
+2024-04-28,SBasu,Large print corners curling up and colliding with nozzle,N,stopped,Enclosure left open overnight and chamber cooled below 25°C.

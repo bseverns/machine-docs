@@ -1,1 +1,4 @@
 date,operator,task,notes,parts_used,next_due
+2024-06-02,MPatel,Wipe station service and purge tune,Replaced pad, updated purge length in Cura profile,Wipe pads,2024-07-02
+2024-05-21,KTaylor,Runout sensor clean and calibration,Blew out dust and recalibrated trigger distance,None,2024-08-21
+2024-05-10,JSingh,Z-axis lubrication and coupler tighten,Applied PTFE lube and torqued coupler set screws,PTFE lube,2024-07-10
