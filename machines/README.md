@@ -6,6 +6,7 @@
 1. Open the machine-specific subfolder and read its `README` for workflow context.
 2. Hit the links below to pull first-party manuals, spec sheets, and support threads before making claims.
 3. When you update a machine doc, cite the source you checked so we can defend the fact later.
+4. Close the loop by logging work in `logs/maintenance-log.csv` or `logs/incident-log.csv`, then review the [Machine Logging Playbook](../docs/logging-playbook.md) so trends don't slip past us.
 
 ## Quick reference grid
 | Machine | Fact snapshot | Primary manufacturer sources |
