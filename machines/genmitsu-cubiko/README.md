@@ -2,6 +2,16 @@
 
 _Aim: reliable, repeatable results with clear guardrails._
 
+## Maintainer pack
+- [Machine card](./machine-card.md) — installed state, stewardship, access, and known-good operating envelope.
+- [Parts and spares](./parts-and-spares.md) — what to stock, what to order, and what still needs exact SKU confirmation.
+- [Local deviations](./local-deviations.md) — approved drift from stock hardware, firmware, or workflow.
+- [Physical audit](./physical-audit.md) — bench-side worksheet for replacing `TBD`s with verified facts.
+- [Calibration](./calibration.md) — tram, offsets, and motion accuracy history.
+- [Materials](./materials.md) — approved stock, cut limits, and process notes.
+- [Troubleshooting](./troubleshooting.md) — symptom-driven recovery paths.
+- [Logs](./logs/) — maintenance and incident history.
+
 ## Start here
 - [Quick Start](./quickstart.md) — practice run that covers CAM-to-machine basics.
 - [Safety](./safety.md) — chip containment, PPE, and emergency stops.
@@ -36,4 +46,3 @@ _Aim: reliable, repeatable results with clear guardrails._
 - [SainSmart Genmitsu Cubiko product page](https://www.sainsmart.com/products/genmitsu-cubiko) — official specifications and accessory list.
 - [SainSmart Docs: Cubiko introduction](https://docs.sainsmart.com/article/intro-genmitsu-cubiko) — assembly, wiring, and firmware guidance.
 - [Genmitsu support downloads](https://www.sainsmart.com/pages/genmitsu-cubiko-download) — firmware, drivers, and CAM profiles maintained by SainSmart.
-

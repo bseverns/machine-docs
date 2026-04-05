@@ -2,6 +2,16 @@
 
 _Aim: reliable, repeatable results with clear guardrails._
 
+## Maintainer pack
+- [Machine card](./machine-card.md) — installed state, stewardship, access, and known-good operating envelope.
+- [Parts and spares](./parts-and-spares.md) — what to stock, what to order, and what still needs exact SKU confirmation.
+- [Local deviations](./local-deviations.md) — approved drift from stock hardware, firmware, or workflow.
+- [Physical audit](./physical-audit.md) — bench-side worksheet for replacing `TBD`s with verified facts.
+- [Calibration](./calibration.md) — local offsets, chamber drift notes, and validation history.
+- [Materials](./materials.md) — approved materials, purge expectations, and handling notes.
+- [Troubleshooting](./troubleshooting.md) — symptom-driven recovery paths.
+- [Logs](./logs/) — maintenance and incident history.
+
 ## Start here
 - [Quick Start](./quickstart.md) — get oriented and run a controlled first print.
 - [Safety](./safety.md) — ventilation, PPE, and emergency stops for this enclosed system.
@@ -36,4 +46,3 @@ _Aim: reliable, repeatable results with clear guardrails._
 - [MakerBot Method X product page](https://www.makerbot.com/3d-printers/method-x/) — official spec sheet and marketing claims.
 - [MakerBot Method X user guide (PDF)](https://downloads.makerbot.com/manuals/MakerBot_MethodX_UserGuide.pdf) — first-party setup, calibration, and maintenance.
 - [MakerBot support: Method X topic](https://support.makerbot.com/s/topic/0TO6S000000PC4EWAW/method-x) — curated troubleshooting and materials articles.
-

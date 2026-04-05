@@ -2,6 +2,15 @@
 
 **Intent:** keep this little beast honest as a reference build. It still wears the stock bones, but every mod is logged so we can retell the story without guessing.
 
+## Maintainer pack
+- [Machine card](./machine-card.md) — installed state, stewardship, and operating envelope.
+- [Parts and spares](./parts-and-spares.md) — what to buy, what to keep on hand, and what still needs exact part-number confirmation.
+- [Local deviations](./local-deviations.md) — every controlled drift from stock plus rollback notes.
+- [Calibration log](./calibration.md) — offsets, extrusion tuning, and validation history.
+- [Maintenance log](./maintenance.md) — hands-on service notes.
+- [Firmware notes](./firmware-notes.md) — firmware assumptions, flash path, and gotchas.
+- [Experiments](./experiments/) — raw trials and promotion candidates for standard practice.
+
 ## Configuration snapshot (Fall 2025)
 | Subsystem | Current state | Why we care | Reference |
 | --- | --- | --- | --- |
@@ -21,6 +30,7 @@
 - Titan Aero likes to run hotter than stock; document any temperature nudges so we can back-calculate if filament cooks.
 - Flex plates warp if scraped like a griddle — use plastic scrapers and reapply PEI when it clouds.
 - Treat this as our _playground_ Mini: every experiment must leave breadcrumbs in `experiments/` with slicer profiles and before/after photos.
+- If an experiment becomes normal practice, promote it into the machine card, parts list, deviations log, profile set, or troubleshooting doc in the same week.
 
 ## Reference basecamp
 - [LulzBot Mini 2 Support Portal](https://www.lulzbot.com/mini-2-support) — manuals, wiring diagrams, and firmware packages straight from LulzBot.

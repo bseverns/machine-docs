@@ -23,16 +23,32 @@ We keep tripping over the same questions: _Which profile do I use?_ _Where do I 
 - **Shared docs** — Lab-wide standards, pipelines, and training live in [`/docs`](docs/). Highlights:
   - [Lab Safety](docs/lab-safety.md)
   - [3D Printing Pipeline](docs/printing-pipeline.md) & [CNC Pipeline](docs/cnc-pipeline.md)
+  - [Physical Audit Playbook](docs/physical-audit-playbook.md)
+  - [Source Citation Policy](docs/source-citation-policy.md)
   - [Onboarding](docs/onboarding.md) and [Training Pathways](docs/training-pathways.md)
 - **Templates** — Drop-in scaffolds for SOPs, job sheets, and forms live in [`/templates`](templates/). Start with the [Template Field Guide](templates/README.md) to pick the right one and see what to customize.
 - **Personal rigs** — Ben’s side quests and retrofit notes are in [`/personal-machines`](personal-machines/).
 
 ## How to use these docs
 
-1. Start in your **machine folder** → read the local [`README`](machines/) → follow its linked **Quick Start**, **Safety**, and **SOP**.
+1. Start in your **machine folder** → read the local [`README`](machines/) → then open the local machine card, deviations log, and parts list if they exist.
 2. Grab the relevant **Operator Checklist**, templates, or slicer profiles directly from the folder paths linked in each doc.
 3. After every run, update the maintenance or incident logs so the next human sees the full story, then hit the [Machine Logging Playbook](docs/logging-playbook.md) to stay synced on review cadence.
 4. Found a better trick? **Submit a PR** with context, photos, or data. This repo only stays alive if we feed it.
+
+## Maintainer baseline
+
+Every machine should grow toward the same reference pack:
+
+- `README.md` - human overview and launchpad
+- `machine-card.md` - exact installed state, ownership, access, and operating envelope
+- `parts-and-spares.md` - what to buy, where it lives, and what is safe to substitute
+- `local-deviations.md` - every controlled drift from stock plus rollback notes
+- `maintenance.md` / `logs/` - service history and recurring faults
+- `profiles/` / `materials.md` / `calibration.md` - known-good settings and measured baselines
+- `troubleshooting.md` - symptom-driven recovery paths
+
+If a machine is missing one of these, that gap is documentation debt, not an excuse.
 
 ## Contribution rhythm
 

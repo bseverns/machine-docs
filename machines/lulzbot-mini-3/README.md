@@ -2,6 +2,16 @@
 
 _Aim: reliable, repeatable results with clear guardrails._
 
+## Maintainer pack
+- [Machine card](./machine-card.md) — installed state, stewardship, access, and known-good operating envelope.
+- [Parts and spares](./parts-and-spares.md) — what to stock, what to order, and what still needs exact SKU confirmation.
+- [Local deviations](./local-deviations.md) — approved drift from stock hardware, firmware, or workflow.
+- [Physical audit](./physical-audit.md) — bench-side worksheet for replacing `TBD`s with verified facts.
+- [Calibration](./calibration.md) — local offsets, probe notes, and drift history.
+- [Materials](./materials.md) — approved filaments and local process notes.
+- [Troubleshooting](./troubleshooting.md) — symptom-driven recovery paths.
+- [Logs](./logs/) — maintenance and incident history.
+
 ## Start here
 - [Quick Start](./quickstart.md) — dial in your first print with Cura and lab checks.
 - [Safety](./safety.md) — hazards, hot surfaces, and emergency stops.
@@ -36,4 +46,3 @@ _Aim: reliable, repeatable results with clear guardrails._
 - [LulzBot Mini 3 product page](https://www.lulzbot.com/products/lulzbot-mini-3) — official specs, bundle contents, and firmware downloads.
 - [OHAI: LulzBot Mini 3 guides](https://ohai.lulzbot.com/project/lulzbot-mini-3/) — step-by-step maintenance and calibration direct from LulzBot.
 - [LulzBot support knowledge base](https://www.lulzbot.com/learn/tutorials/lulzbot-mini-3) — application notes and material presets maintained by LulzBot.
-

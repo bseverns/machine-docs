@@ -15,6 +15,10 @@ _Shortcuts for the docs we keep cloning, plus the knobs you should twist before 
 | [`maintenance-log.csv`](maintenance-log.csv) | Logging service actions, cleanings, calibrations. | Each row: date, operator, task, notes, next due. |
 | [`material-profile.yaml`](material-profile.yaml) | Recording slicer-ready material settings. | Material metadata, temps, speed, notes. |
 | [`risk-assessment.md`](risk-assessment.md) | Preflight hazard analysis before sketchy tasks. | Machine, task, hazard controls, approval line. |
+| [`machine-card-template.md`](machine-card-template.md) | Capturing the installed state and stewardship info for one machine. | Owner, location, serial, firmware, operating envelope. |
+| [`parts-and-spares-template.md`](parts-and-spares-template.md) | Tracking what to buy, stock, and trust as replacements. | Part numbers, vendor SKUs, stock levels, substitutes. |
+| [`local-deviations-template.md`](local-deviations-template.md) | Logging every controlled drift from stock hardware or workflow. | Baseline, installed state, reason, rollback, verification. |
+| [`physical-audit-template.md`](physical-audit-template.md) | Running a bench-side audit to replace `TBD`s with verified facts. | Asset info, power/data path, spares count, photos, sign-off. |
 
 ---
 
@@ -101,9 +105,51 @@ _Shortcuts for the docs we keep cloning, plus the knobs you should twist before 
   - Embed a mini flowchart (“If residual risk stays High → escalate to lab manager”).
   - Snap a photo of the setup annotated with hazard zones.
 
+## Machine Card Template
+- **When to deploy:** As soon as a machine becomes part of the shop. This is the maintainer-facing identity card, not marketing copy.
+- **Dial these in:**
+  - Asset tag, serial, steward, location, firmware baseline, and host software.
+  - The "known-good operating envelope" so interns know what success and stop-conditions look like.
+  - Verification dates for anything that was physically checked rather than copied from a manual.
+- **First-use boost:**
+  - Add one annotated photo showing front, rear, and controller access points.
+  - Put the machine card link in the machine `README.md` near the top.
+
+## Parts and Spares Template
+- **When to deploy:** The moment someone has to ask "what part do we buy for this again?"
+- **Dial these in:**
+  - Exact manufacturer part numbers first, vendor SKUs second.
+  - Reorder points and shelf locations so interns can restock without Slack archaeology.
+  - Approved substitutes only when they have actually been reviewed.
+- **First-use boost:**
+  - Mark truly critical spares that can take the machine down if missing.
+  - Link to the maintenance entry where a replacement part was successfully installed.
+
+## Local Deviations Template
+- **When to deploy:** Every time a machine stops being stock, even if the change feels obvious now.
+- **Dial these in:**
+  - Stock baseline, installed state, reason for change, introduced risks, and rollback path.
+  - Verification evidence such as a baseline print, calibration result, or issue link.
+  - Open questions if the change is still being evaluated.
+- **First-use boost:**
+  - Update this in the same PR as the hardware or workflow change.
+  - Link the affected SOP, calibration, and troubleshooting docs so nothing drifts out of sync.
+
+## Physical Audit Template
+- **When to deploy:** Whenever a machine still has `TBD` values, unclear shelf locations, undocumented part swaps, or stale ownership info.
+- **Dial these in:**
+  - Audit date, auditor, machine location, asset tag, serial, and photo set.
+  - Verified power path, host path, firmware version, major installed hardware, and deviations from stock.
+  - Spare counts, reorder thresholds, and bin labels that were physically checked rather than assumed.
+- **First-use boost:**
+  - Run the audit with the machine card, parts list, and deviations log open side-by-side.
+  - Require a final "docs updated" checkbox before closing the audit.
+
 ---
 
 ### Next steps & wish list
 - Add thumbnail photos or annotated screenshots for SOP, Quick Start, and Troubleshooting templates to make them instantly recognizable.
 - Build printable “first-use” mini checklists (half-page) that reference the most common templates and hang them near each machine.
 - Consider lightweight Loom/YouTube clips tied to each template for new operators who learn better by watching than reading.
+- Add one worked example machine folder that uses every maintainer template so contributors can clone a known-good pattern.
+- Add a dated `audits/` folder if you want to keep every physical audit snapshot instead of only the latest verified state.

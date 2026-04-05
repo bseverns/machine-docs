@@ -2,6 +2,16 @@
 
 _Aim: reliable, repeatable results with clear guardrails._
 
+## Maintainer pack
+- [Machine card](./machine-card.md) — installed state, stewardship, access, and known-good operating envelope.
+- [Parts and spares](./parts-and-spares.md) — what to stock, what to order, and what still needs exact SKU confirmation.
+- [Local deviations](./local-deviations.md) — approved drift from stock hardware, firmware, or workflow.
+- [Physical audit](./physical-audit.md) — bench-side worksheet for replacing `TBD`s with verified facts.
+- [Calibration](./calibration.md) — local offsets, bed-map notes, and drift history.
+- [Materials](./materials.md) — approved material use and local constraints.
+- [Troubleshooting](./troubleshooting.md) — symptom-driven recovery paths.
+- [Logs](./logs/) — maintenance and incident history.
+
 ## Start here
 - [Quick Start](./quickstart.md) — get a successful print out in about 15 minutes.
 - [Safety](./safety.md) — hazards, PPE, and how to slam the E-stop without flinching.
@@ -36,4 +46,3 @@ _Aim: reliable, repeatable results with clear guardrails._
 - [MakerBot SKETCH product page](https://www.makerbot.com/3d-printers/sketch/) — official specs and marketing copy.
 - [MakerBot SKETCH user guide (PDF)](https://downloads.makerbot.com/manuals/MakerBot_SKETCH_User_Guide.pdf) — factory setup, maintenance, and calibration.
 - [MakerBot support: SKETCH resource hub](https://support.makerbot.com/s/article/1667416063529) — troubleshooting articles curated by MakerBot.
-

@@ -3,6 +3,8 @@
 Quick references for Ben's own machines and conversion projects.
 _All lab machines remain stock unless otherwise noted; these docs are here for continuity and training._
 
+Where a project is mature enough, document it like a lab machine: `README.md`, `machine-card.md`, `parts-and-spares.md`, `local-deviations.md`, logs, and calibration notes.
+
 - [**LulzBot Mini 2** — Einsy Retro + Titan Aero + magnetic flex plates](./lulzbot-mini-2/) — personal rig, documented like a mini case study.
 - **Voxelab Aquila** — SKR Mini E3 V3, Sprite, CR‑Touch, **MRiscoC ProUI**, **TJC screen**.
 - **FolgerTech i3** — planned rebuild using **EinsyRetro 1.0a** (not RAMBo).
