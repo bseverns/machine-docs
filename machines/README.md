@@ -14,6 +14,7 @@
 | [MakerBot Sketch](./makerbot-sketch/) | Dual-extruder educational printer; runs Sketch Cloud or MakerBot Print. | [Product page](https://www.makerbot.com/3d-printers/sketch/) · [SKETCH user guide (PDF)](https://downloads.makerbot.com/manuals/MakerBot_SKETCH_User_Guide.pdf) |
 | [MakerBot Sketch+](./makerbot-sketch-plus/) | Larger build volume sibling; otherwise same workflow as Sketch. | [Sketch Series overview](https://www.makerbot.com/3d-printers/sketch-series/) · [Sketch+ spec sheet](https://downloads.makerbot.com/manuals/MakerBot_SKETCHPlus_TechSpecs.pdf) |
 | [MakerBot Method X](./makerbot-method-x/) | Enclosed ABS/ASA-capable system with soluble support. | [Method X product page](https://www.makerbot.com/3d-printers/method-x/) · [Method X material guide](https://downloads.makerbot.com/manuals/MakerBot_MethodX_MaterialGuide.pdf) |
+| [Bambu Lab P1S](./bambu-lab-p1s/) | Enclosed CoreXY FDM printer with Bambu Studio workflow and optional AMS. | [P1 Series product page](https://bambulab.com/en/p1) · [P1 Series Wiki](https://wiki.bambulab.com/en/p1) |
 | [LulzBot Mini 3](./lulzbot-mini-3/) | Successor to Mini 2 with improved toolhead + modular bed. | [Mini 3 product page](https://www.lulzbot.com/products/lulzbot-mini-3) · [Mini 3 OHAI docs](https://ohai.lulzbot.com/project/lulzbot-mini-3/) |
 | [Genmitsu Cubiko](./genmitsu-cubiko/) | Enclosed desktop CNC powered by GRBL. | [SainSmart Cubiko page](https://www.sainsmart.com/products/genmitsu-cubiko) · [Cubiko wiki](https://docs.sainsmart.com/article/intro-genmitsu-cubiko) |
 

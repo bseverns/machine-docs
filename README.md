@@ -2,7 +2,7 @@
 
 _A practical, evolving field manual for our digital fabrication lab. Built to help people make more, better, and safer._
 
-- **Scope:** 3D printers (MakerBot Sketch, Sketch+, Method X; LulzBot Mini 3) and **CNC** (Genmitsu Cubiko).
+- **Scope:** 3D printers (Bambu Lab P1S; MakerBot Sketch, Sketch+, Method X; LulzBot Mini 3) and **CNC** (Genmitsu Cubiko).
 - **Audience:** students, staff, and community members — from first-timers to battle-tested maintainers.
 - **Status:** initial scaffold · 2025-09-19. Treat it like a handbook and a lab log that never sleeps.
 
@@ -18,6 +18,7 @@ We keep tripping over the same questions: _Which profile do I use?_ _Where do I 
   - [MakerBot Sketch](machines/makerbot-sketch/)
   - [MakerBot Sketch+](machines/makerbot-sketch-plus/)
   - [MakerBot Method X](machines/makerbot-method-x/)
+  - [Bambu Lab P1S](machines/bambu-lab-p1s/)
   - [LulzBot Mini 3](machines/lulzbot-mini-3/)
   - [Genmitsu Cubiko (CNC)](machines/genmitsu-cubiko/)
 - **Shared docs** — Lab-wide standards, pipelines, and training live in [`/docs`](docs/). Highlights:
