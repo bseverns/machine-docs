@@ -30,6 +30,14 @@ We keep tripping over the same questions: _Which profile do I use?_ _Where do I 
 - **Templates** — Drop-in scaffolds for SOPs, job sheets, and forms live in [`/templates`](templates/). Start with the [Template Field Guide](templates/README.md) to pick the right one and see what to customize.
 - **Personal rigs** — Ben’s side quests and retrofit notes are in [`/personal-machines`](personal-machines/).
 
+## Authority and machine identity export
+
+This repository is authoritative for durable physical-machine truth: apparatus identity, installed configuration and modifications, known-good state, operating envelope, safety, service history, calibration, lifecycle maturity, documentation, and recovery.
+
+It does **not** own present online/offline state, current job progress, live readiness, home-automation affordances, or scheduling. Those belong to consuming operational systems.
+
+Consumers can resolve stable IDs and aliases through [`exports/machine-identities.json`](exports/machine-identities.json), governed by [`contracts/machine-identities.schema.json`](contracts/machine-identities.schema.json), without scraping Markdown. The export intentionally contains identity and provenance only.
+
 ## How to use these docs
 
 1. Start in your **machine folder** → read the local [`README`](machines/) → then open the local machine card, deviations log, and parts list if they exist.

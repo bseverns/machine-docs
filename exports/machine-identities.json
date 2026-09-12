@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "authority": "machine-docs:durable-physical-machine-truth",
+  "machines": [
+    {
+      "id": "studio-machine:bambu-p1s",
+      "name": "Bambu Lab P1S",
+      "aliases": [],
+      "documentation_path": "machines/bambu-lab-p1s/",
+      "provenance": [{"source": "machines/bambu-lab-p1s/machine-card.md", "supports": ["identity"]}]
+    },
+    {
+      "id": "studio-machine:genmitsu-cubiko",
+      "name": "Genmitsu Cubiko",
+      "aliases": ["Cubiko"],
+      "documentation_path": "machines/genmitsu-cubiko/",
+      "provenance": [{"source": "machines/genmitsu-cubiko/README.md", "supports": ["identity", "aliases"]}]
+    },
+    {
+      "id": "studio-machine:lulzbot-mini-3",
+      "name": "LulzBot Mini 3",
+      "aliases": [],
+      "documentation_path": "machines/lulzbot-mini-3/",
+      "provenance": [{"source": "machines/lulzbot-mini-3/machine-card.md", "supports": ["identity"]}]
+    },
+    {
+      "id": "studio-machine:makerbot-method-x",
+      "name": "MakerBot Method X",
+      "aliases": [],
+      "documentation_path": "machines/makerbot-method-x/",
+      "provenance": [{"source": "machines/makerbot-method-x/machine-card.md", "supports": ["identity"]}]
+    },
+    {
+      "id": "studio-machine:makerbot-sketch",
+      "name": "MakerBot Sketch",
+      "aliases": [],
+      "documentation_path": "machines/makerbot-sketch/",
+      "provenance": [{"source": "machines/makerbot-sketch/machine-card.md", "supports": ["identity"]}]
+    },
+    {
+      "id": "studio-machine:makerbot-sketch-plus",
+      "name": "MakerBot Sketch+",
+      "aliases": [],
+      "documentation_path": "machines/makerbot-sketch-plus/",
+      "provenance": [{"source": "machines/makerbot-sketch-plus/machine-card.md", "supports": ["identity"]}]
+    },
+    {
+      "id": "studio-machine:lulzbot-mini-2",
+      "name": "LulzBot Mini 2",
+      "aliases": [],
+      "documentation_path": "personal-machines/lulzbot-mini-2/",
+      "provenance": [{"source": "personal-machines/lulzbot-mini-2/machine-card.md", "supports": ["identity"]}]
+    },
+    {
+      "id": "studio-machine:aquila-modified",
+      "name": "Voxelab Aquila",
+      "aliases": ["modified Aquila", "Voxelab Aquila X2", "Aquila X2"],
+      "documentation_path": "personal-machines/voxelab-aquila-skrmini-e3v3-sprite-crtouch-proui/",
+      "provenance": [{"source": "personal-machines/README.md", "supports": ["identity", "aliases"]}]
+    },
+    {
+      "id": "studio-machine:folgertech-i3-rebuild",
+      "name": "FolgerTech i3",
+      "aliases": ["2020"],
+      "documentation_path": "personal-machines/folgertech-i3-einsyretro-rebuild/",
+      "provenance": [{"source": "personal-machines/README.md", "supports": ["identity", "aliases"]}]
+    }
+  ]
+}
