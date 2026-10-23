@@ -6,7 +6,7 @@
 **Owner / steward:** Ben  
 **Asset tag / serial:** verified locally; not published  
 **Acquired:** TBD  
-**Last host-verified:** 2026-10-22  
+**Last host-verified:** 2026-10-23<br>
 **Primary reference README:** `README.md`
 
 ## Snapshot
@@ -17,11 +17,13 @@
 | Memory | 8 GB unified memory | `system_profiler` | 2026-10-22 |
 | OS | macOS 27.0.1 (`26A434`) | `system_profiler` | 2026-10-22 |
 | Boot/security | normal boot; secure VM and SIP enabled | `system_profiler` | 2026-10-22 |
-| Internal storage | approximately 500 GB; critically low headroom during audit | `disk_usage` | 2026-10-22 |
+| Internal storage | 26.158497 GiB available; about 1.16 GiB above the experiment floor | `disk_usage`, experiment preflight | 2026-10-23 |
 | External work volume | `/Volumes/Studio-AI`, backed by `/Volumes/BS_SKETCH/Studio-AI.sparsebundle` | `hdiutil`, filesystem inspection | 2026-10-22 |
-| Local model service | Ollama on loopback with `qwen3:4b` and `embeddinggemma` | `ollama list`, listener inspection | 2026-10-22 |
-| Research software | BenLab Local Analyst; supervised single-job use only | dependency-complete test suite and smoke test | 2026-10-22 |
+| Local model service | Ollama on loopback; bounded generation and embedding checks passed | loopback API generation/embedding probes | 2026-10-23 |
+| Research software | BenLab Local Analyst; supervised single-job use only | 153 tests, CLI help, smoke test, maintenance and experiment preflights | 2026-10-23 |
 | Hermes state | external `HERMES_HOME`; machine-scoped profile `macminim101` created | path resolution and `hermes profile show` | 2026-10-22 |
+| Corpus readiness | blocked; configured manifest, card-store, and SQLite inputs absent or unreadable | corpus preflight, exit 2 | 2026-10-23 |
+| Recovery material | verified `/usr/local` quarantine archive; restore not tested | SHA-256, tar listing, sampled-content verification | 2026-10-23 |
 
 ## Identity reconciliation
 
@@ -44,6 +46,13 @@ Not ready:
 - remote administration;
 - unique data without a tested off-device restore;
 - service persistence that depends on an unproved post-restart external mount.
+
+## Migration residue
+
+- Intel Homebrew manager roots were retired after quarantine; native Homebrew, system tools, NVM, and Hermes command paths were verified.
+- MacPorts was preserved but is not operational because its Tcl interpreter is Intel-only and Rosetta is unavailable.
+- Three broken `certifi/cacert.pem` links remain outside the authorized retirement scope; they are not active command paths.
+- The recovery archive was verified but has not been restored in an isolated drill.
 
 ## Open physical verification
 

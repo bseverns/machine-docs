@@ -16,6 +16,17 @@ This folder records physical and host-local facts for the personal Mac mini reco
 
 The serial number and platform UUID were verified locally and deliberately omitted from the repository. The owner confirmed that this inspected host corresponds to the M1 records already present in both `systems-atlas` and `studio-compute`.
 
+## 2026-10-23 commissioning evidence
+
+- Internal `/` had 26.158497 GiB available; the experiment preflight measured 26.119 GiB, required 25 GiB, and passed.
+- Maintenance preflight passed. Corpus preflight remained blocked because its configured manifest, card-store, and SQLite inputs were absent or unreadable.
+- BenLab Local Analyst passed 153 tests, CLI help, and its smoke test.
+- Loopback `qwen3:4b` generation returned the exact `M1_OK` contract; `embeddinggemma` returned a 768-dimensional embedding.
+- Intel Homebrew was retired within the approved scope after a recovery archive was verified. No restore drill was performed.
+- Native command resolution was restored. MacPorts remains preserved but unusable without Rosetta, and three non-command broken `certifi` links remain disclosed.
+
+These are point-in-time supervised checks. They do not establish unattended startup, scheduling, backup, restore, monitoring, remote operation, or disaster recovery.
+
 ## Authority links
 
 - Stable identity: `systems-atlas/inventory/fleet.yaml#mac-mini-m1-01`
