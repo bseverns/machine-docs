@@ -27,7 +27,7 @@
 
 ## Identity reconciliation
 
-The owner confirmed that this inspected machine corresponds to the existing M1 records in Systems Atlas and Studio Compute. This does not promote the proposed `mini-core` alias into the configured hostname or make the proposed role operationally ready.
+The owner confirmed that this inspected machine corresponds to the existing M1 records in Systems Atlas and Studio Compute and formally approved `mini-core` as its alias. The alias is not the configured hostname and does not make the proposed role operationally ready.
 
 ## Current operating boundary
 

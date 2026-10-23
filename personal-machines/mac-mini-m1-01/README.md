@@ -36,7 +36,7 @@ These are point-in-time supervised checks. They do not establish unattended star
 
 ## Boundaries
 
-- `mini-core` remains a planning alias, not a configured hostname.
+- `mini-core` is the formally approved alias, not the configured hostname.
 - The proposed coordination role remains conditional, not proof of deployment.
 - Do not publish serial numbers, platform UUIDs, credentials, or private network addressing.
 - Keep Ollama loopback-only unless a separately reviewed access contract requires otherwise.
