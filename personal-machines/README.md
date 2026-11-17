@@ -10,5 +10,6 @@ Where a project is mature enough, document it like a lab machine: `README.md`, `
 - **FolgerTech i3** (also “2020”) — planned rebuild using **EinsyRetro 1.0a** (not RAMBo).
 - **Stratasys Mojo** — retrofit to **Marlin** (open materials, open control).
 - **uPrint** — research notes / community threads.
+- [**Reported Jetson compute candidates**](./jetson-compute-candidates/) — Gate D audit preparation only; no canonical identity or runtime claim.
 
 > These pages emphasize **links** and **decision trees** rather than hard prescriptions.
