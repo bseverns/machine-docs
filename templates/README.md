@@ -19,6 +19,7 @@ _Shortcuts for the docs we keep cloning, plus the knobs you should twist before 
 | [`parts-and-spares-template.md`](parts-and-spares-template.md) | Tracking what to buy, stock, and trust as replacements. | Part numbers, vendor SKUs, stock levels, substitutes. |
 | [`local-deviations-template.md`](local-deviations-template.md) | Logging every controlled drift from stock hardware or workflow. | Baseline, installed state, reason, rollback, verification. |
 | [`physical-audit-template.md`](physical-audit-template.md) | Running a bench-side audit to replace `TBD`s with verified facts. | Asset info, power/data path, spares count, photos, sign-off. |
+| [`compute-device-profile-template.md`](compute-device-profile-template.md) | Recording a compute candidate after physical inspection without conflating report, specification, observation, or benchmark. | Evidence class, accelerator, memory, recovery, thermal limits, Gate D status. |
 
 ---
 
